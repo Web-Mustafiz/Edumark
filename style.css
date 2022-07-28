@@ -41,3 +41,7 @@ body {
   max-width: 550px;
   margin: 0 auto;
 }
+
+.rating-star li {
+  list-style: none;
+}

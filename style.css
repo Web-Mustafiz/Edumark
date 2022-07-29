@@ -19,7 +19,7 @@ body {
 }
 
 .slider {
-  margin-top: 4rem !important;
+  margin-top: 5rem !important;
 }
 
 .overlay {
@@ -97,4 +97,13 @@ body {
   top: 40%;
   right: -7px;
   z-index: 1;
+}
+
+@media screen and (min-width: 360px) and (max-width: 668px) {
+  .slider-title {
+    font-size: 1rem;
+  }
+  .desc {
+    font-size: 0.5rem;
+  }
 }
